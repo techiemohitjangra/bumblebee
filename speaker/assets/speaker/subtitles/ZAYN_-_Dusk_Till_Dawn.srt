@@ -1,0 +1,383 @@
+1
+00:00:00:00,233 --> 00:00:00:03,233
+[clock ticking]
+
+2
+00:00:00:03,233 --> 00:00:00:08,233
+[SFX: tires squealing, gun shots, glass breaking]
+
+3
+00:00:00:22,899 --> 00:00:00:25,532
+not tryna be indie
+
+4
+00:00:00:25,533 --> 00:00:00:27,932
+not tryna be cool
+
+5
+00:00:00:27,932 --> 00:00:00:30,600
+just tryna be in this
+
+6
+00:00:00:30,600 --> 00:00:00:33,466
+tell me are you too?
+
+7
+00:00:00:33,466 --> 00:00:00:36,000
+can you feel where the wind is?
+
+8
+00:00:00:36,000 --> 00:00:00:38,765
+can you feel it through
+
+9
+00:00:00:38,765 --> 00:00:00:41,365
+all of the windows
+
+10
+00:00:00:41,365 --> 00:00:00:43,365
+inside this room?
+
+11
+00:00:00:44,865 --> 00:00:00:47,600
+cause i wanna touch you baby
+
+12
+00:00:00:47,600 --> 00:00:00:50,265
+and i wanna feel you too
+
+13
+00:00:00:50,265 --> 00:00:00:52,799
+i wanna see the sun rise
+
+14
+00:00:00:52,799 --> 00:00:00:55,699
+on your sins just me and you
+
+15
+00:00:00:55,700 --> 00:00:00:58,432
+light it up
+
+16
+00:00:00:58,432 --> 00:00:01:00,932
+on the run
+
+17
+00:00:01:00,932 --> 00:00:01:06,400
+let's make love tonight
+
+18
+00:00:01:06,400 --> 00:00:01:09,100
+make it up
+
+19
+00:00:01:09,099 --> 00:00:01:11,699
+fall in love
+
+20
+00:00:01:11,700 --> 00:00:01:14,033
+try
+
+21
+00:00:01:14,033 --> 00:00:01:16,033
+baby i'm right here
+
+22
+00:00:01:18,200 --> 00:00:01:20,900
+but you'll never be alone
+
+23
+00:00:01:20,900 --> 00:00:01:22,900
+i'll be with you from dusk till dawn
+
+24
+00:00:01:23,500 --> 00:00:01:26,233
+i'll be with you from dusk till dawn
+
+25
+00:00:01:26,233 --> 00:00:01:28,933
+baby i'm right here
+
+26
+00:00:01:28,933 --> 00:00:01:31,500
+i'll hold you when things go wrong
+
+27
+00:00:01:31,500 --> 00:00:01:33,500
+i'll be with you from dusk till dawn
+
+28
+00:00:01:34,066 --> 00:00:01:37,000
+i'll be with you from dusk till dawn
+
+29
+00:00:01:37,000 --> 00:00:01:44,533
+baby i'm right here~
+
+30
+00:00:01:44,533 --> 00:00:01:47,566
+i'll be with you from dusk till dawn
+
+31
+00:00:01:47,566 --> 00:00:01:55,500
+baby i'm right here~
+
+32
+00:00:01:55,500 --> 00:00:01:58,266
+i'll be with you from dusk till dawn
+
+33
+00:00:01:58,266 --> 00:00:02:00,266
+baby i'm right here
+
+34
+00:00:02:03,165 --> 00:00:02:06,165
+Your life in the daytime is over.
+
+35
+00:00:02:07,233 --> 00:00:02:08,765
+There's eyes on you everywhere.
+
+36
+00:00:02:08,765 --> 00:00:02:10,199
+You know that right?
+
+37
+00:00:02:10,199 --> 00:00:02:12,165
+I'm watching you.
+
+38
+00:00:02:12,165 --> 00:00:02:14,633
+My crews watching you.
+
+39
+00:00:02:14,633 --> 00:00:02:16,866
+You know your little homies?
+
+40
+00:00:02:16,866 --> 00:00:02:18,366
+They pissed off.
+
+41
+00:00:02:20,032 --> 00:00:02:21,799
+They mad at you bro.
+
+42
+00:00:02:21,800 --> 00:00:02:25,766
+Your name is mud on the streets.
+
+43
+00:00:02:25,765 --> 00:00:02:28,099
+Oh, I know who you are.
+
+44
+00:00:02:29,300 --> 00:00:02:30,800
+You don't know me.
+
+45
+00:00:02:31,199 --> 00:00:02:33,765
+we were shut like a jacket
+
+46
+00:00:02:33,765 --> 00:00:02:36,566
+so do your zip
+
+47
+00:00:02:36,566 --> 00:00:02:39,165
+we would roll down the rapids
+
+48
+00:00:02:39,165 --> 00:00:02:41,765
+to find a wave that fits
+
+49
+00:00:02:41,765 --> 00:00:02:44,566
+can you feel where the wind is?
+
+50
+00:00:02:44,566 --> 00:00:02:47,466
+can you feel it through?
+
+51
+00:00:02:47,466 --> 00:00:02:49,733
+all of the windows
+
+52
+00:00:02:49,733 --> 00:00:02:51,733
+inside this room
+
+53
+00:00:02:53,300 --> 00:00:02:56,066
+cause i wanna touch you baby
+
+54
+00:00:02:56,066 --> 00:00:02:58,699
+i wanna feel you too
+
+55
+00:00:02:58,699 --> 00:00:03:01,299
+i wanna see the sun rise
+
+56
+00:00:03:01,300 --> 00:00:03:04,066
+on your sins just me and you
+
+57
+00:00:03:04,066 --> 00:00:03:06,699
+light it up
+
+58
+00:00:03:06,699 --> 00:00:03:09,465
+on the run
+
+59
+00:00:03:09,466 --> 00:00:03:14,566
+let's make love tonight
+
+60
+00:00:03:14,566 --> 00:00:03:17,265
+make it up
+
+61
+00:00:03:17,265 --> 00:00:03:19,932
+fall in love
+
+62
+00:00:03:19,932 --> 00:00:03:22,233
+try
+
+63
+00:00:03:26,566 --> 00:00:03:29,066
+but you'll never be alone
+
+64
+00:00:03:29,066 --> 00:00:03:31,066
+i'll be with you from dusk till dawn
+
+65
+00:00:03:31,800 --> 00:00:03:34,633
+i'll be with you from dusk till dawn
+
+66
+00:00:03:34,633 --> 00:00:03:37,266
+baby i'm right here
+
+67
+00:00:03:37,265 --> 00:00:03:39,965
+i'll hold you when things go wrong
+
+68
+00:00:03:39,966 --> 00:00:03:41,966
+i'll be with you from dusk till dawn
+
+69
+00:00:03:42,532 --> 00:00:03:45,332
+i'll be with you from dusk till dawn
+
+70
+00:00:03:45,332 --> 00:00:03:53,066
+baby i'm right here~
+
+71
+00:00:03:53,066 --> 00:00:03:56,300
+i'll be with you from dusk till dawn
+
+72
+00:00:03:56,300 --> 00:00:04:03,900
+baby i'm right here~
+
+73
+00:00:04:03,900 --> 00:00:04:06,900
+i'll be with you from dusk till dawn
+
+74
+00:00:04:06,900 --> 00:00:04:09,066
+baby i'm right here
+
+75
+00:00:04:09,066 --> 00:00:04:11,665
+girl give love to your body
+
+76
+00:00:04:11,665 --> 00:00:04:14,233
+it's only you that can stop it
+
+77
+00:00:04:14,233 --> 00:00:04:16,932
+girl give love to your body
+
+78
+00:00:04:16,932 --> 00:00:04:19,632
+it's only you that can stop it
+
+79
+00:00:04:19,632 --> 00:00:04:22,532
+girl give love to your body
+
+80
+00:00:04:22,533 --> 00:00:04:25,066
+it's only you that can stop it
+
+81
+00:00:04:25,065 --> 00:00:04:28,065
+girl give love to your body
+
+82
+00:00:04:28,065 --> 00:00:04:33,165
+girl give love to your body~
+
+83
+00:00:04:33,165 --> 00:00:04:35,800
+but you'll never be alone
+
+84
+00:00:04:35,800 --> 00:00:04:37,800
+i'll be with you from dusk till dawn
+
+85
+00:00:04:38,500 --> 00:00:04:41,365
+i'll be with you from dusk till dawn
+
+86
+00:00:04:41,365 --> 00:00:04:43,966
+baby i'm right here
+
+87
+00:00:04:43,966 --> 00:00:04:46,600
+i'll hold you when things go wrong
+
+88
+00:00:04:46,600 --> 00:00:04:48,600
+i'll be with you from dusk till dawn
+
+89
+00:00:04:49,233 --> 00:00:04:51,865
+i'll be with you from dusk till dawn
+
+90
+00:00:04:51,865 --> 00:00:04:59,800
+baby i'm right here~
+
+91
+00:00:04:59,800 --> 00:00:05:02,665
+i'll be with you from dusk till dawn
+
+92
+00:00:05:02,665 --> 00:00:05:10,600
+baby i'm right here~
+
+93
+00:00:05:10,600 --> 00:00:05:13,266
+i'll be with you from dusk till dawn
+
+94
+00:00:05:13,266 --> 00:00:05:15,432
+baby i'm right here
+
+95
+00:00:05:15,432 --> 00:00:05:19,432
+[Zayn harmonizing]
+
+96
+00:00:05:19,932 --> 00:00:05:25,932
+[car engine revs]

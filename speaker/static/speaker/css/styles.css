@@ -1,0 +1,139 @@
+body {
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+header{
+	padding: 0 7%;
+	background-color: #f4f9f9;
+}
+
+h1, h2, h3,h4, h5, h6{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Headings */
+
+.heading{
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+.sub-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* Saperators */
+
+hr.sub-section-saperator {
+	width: 25%;
+	margin: 1rem auto;
+}
+
+/* Containers */
+
+.container-fluid{
+	padding: 3% 7%;
+}
+
+
+
+/* Sections */
+
+.colored-section{
+	background-color: #f4f9f9;
+}
+
+.white-section{
+	background-color: white;
+}
+
+hr{
+	margin:0;
+}
+
+/* Navigations and title */
+.row {
+	margin: auto;
+}
+.navbar-brand {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.brand-name {
+	font-family: "Ubuntu";
+	text-align: center;
+	color: black;
+}
+
+.navbar-item {
+	align-items: left;
+	padding: 0 18px;
+}
+
+.brand-link{
+	padding:0;
+	vertical-align: middle;
+}
+
+
+/* welcome section */
+.get-started-btn {
+	margin: 3% 7%;
+}
+
+
+/* Features section */
+
+#features.container{
+	max-width: 100%;
+}
+
+
+/* Contact section*/
+
+
+#messege-box{
+	height: 6rem;
+	width: 50%;
+}
+
+.contact-input {
+	height: 3rem;
+}
+
+.contact-field{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* User Input */
+.user-input{
+	height: 6rem;
+}
+
+.valid {
+	border-color: green;
+}
+
+.invalid {
+	border-color: red;
+}
+
+/* footer */
+
+#navbar-footer{
+	width: 50%;
+	margin: auto;
+}

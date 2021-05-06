@@ -1,0 +1,367 @@
+1
+00:00:00:03,585 --> 00:00:00:05,587
+this ain't for the best
+
+2
+00:00:00:05,588 --> 00:00:00:08,757
+my reputation's never been worse so
+
+3
+00:00:00:08,757 --> 00:00:00:12,469
+you must like me for me
+
+4
+00:00:00:14,054 --> 00:00:00:16,640
+we can't make any promises
+
+5
+00:00:00:16,640 --> 00:00:00:18,851
+now can we babe
+
+6
+00:00:00:18,852 --> 00:00:00:22,856
+but you can make me a drink
+
+7
+00:00:00:23,356 --> 00:00:00:24,983
+dive bar on the east side
+
+8
+00:00:00:24,983 --> 00:00:00:26,025
+where you at?
+
+9
+00:00:00:26,024 --> 00:00:00:27,526
+phone lights up my nightstand
+
+10
+00:00:00:27,527 --> 00:00:00:28,486
+in the black
+
+11
+00:00:00:28,486 --> 00:00:00:30,071
+come here, you can meet me
+
+12
+00:00:00:30,071 --> 00:00:00:31,364
+in the back
+
+13
+00:00:00:33,490 --> 00:00:00:35,118
+dark jeans and your nikes
+
+14
+00:00:00:35,118 --> 00:00:00:36,243
+look at you
+
+15
+00:00:00:36,243 --> 00:00:00:38,371
+oh damn, never seen that color blue
+
+16
+00:00:00:38,371 --> 00:00:00:41,166
+just think of the fun things we could do...
+
+17
+00:00:00:42,625 --> 00:00:00:44,335
+'cause i like you...
+
+18
+00:00:00:44,335 --> 00:00:00:46,128
+this ain't for the best
+
+19
+00:00:00:46,128 --> 00:00:00:49,339
+my reputation's never been worse so
+
+20
+00:00:00:49,340 --> 00:00:00:52,093
+you must like me for me
+
+21
+00:00:00:52,676 --> 00:00:00:54,595
+yeah i want you...
+
+22
+00:00:00:54,595 --> 00:00:00:57,097
+we can't make any promises
+
+23
+00:00:00:57,097 --> 00:00:00:59,225
+now can we babe
+
+24
+00:00:00:59,225 --> 00:00:01:02,728
+but you can make me a drink
+
+25
+00:00:01:03,521 --> 00:00:01:06,024
+is it cool that i said all that?
+
+26
+00:00:01:06,024 --> 00:00:01:08,525
+is it chill that you're in my head?
+
+27
+00:00:01:08,525 --> 00:00:01:11,528
+'cause i know that it's delicate
+
+28
+00:00:01:13,614 --> 00:00:01:16,200
+is it cool that i said all that?
+
+29
+00:00:01:16,200 --> 00:00:01:18,660
+is it too soon to do this yet?
+
+30
+00:00:01:18,661 --> 00:00:01:21,664
+'cause i know that it's delicate
+
+31
+00:00:01:22,748 --> 00:00:01:25,167
+isn't it, isn't it, isn't it?
+
+32
+00:00:01:25,918 --> 00:00:01:27,837
+isn't it?
+
+33
+00:00:01:27,837 --> 00:00:01:30,924
+isn't it, isn't it, isn't it?
+
+34
+00:00:01:30,924 --> 00:00:01:32,300
+isn't it...
+
+35
+00:00:01:32,299 --> 00:00:01:33,884
+delicate
+
+36
+00:00:01:34,135 --> 00:00:01:35,844
+third floor on the west side
+
+37
+00:00:01:35,844 --> 00:00:01:37,096
+me and you
+
+38
+00:00:01:37,096 --> 00:00:01:38,847
+handsome, you're a mansion with a view
+
+39
+00:00:01:38,847 --> 00:00:01:40,808
+do the girls back home touch you
+
+40
+00:00:01:40,808 --> 00:00:01:42,185
+like i do?
+
+41
+00:00:01:44,186 --> 00:00:01:45,605
+long night with your hands
+
+42
+00:00:01:45,605 --> 00:00:01:46,814
+up in my hair
+
+43
+00:00:01:46,814 --> 00:00:01:49,274
+echoes of your footsteps on the stairs
+
+44
+00:00:01:49,275 --> 00:00:01:50,318
+stay here, honey
+
+45
+00:00:01:50,317 --> 00:00:01:52,402
+i don't want to share
+
+46
+00:00:01:53,362 --> 00:00:01:55,114
+'cause i like you...
+
+47
+00:00:01:55,114 --> 00:00:01:56,825
+this ain't for the best
+
+48
+00:00:01:56,825 --> 00:00:02:00,118
+my reputation's never been worse so
+
+49
+00:00:02:00,118 --> 00:00:02:02,831
+you must like me for me
+
+50
+00:00:02:03,540 --> 00:00:02:05,333
+yeah i want you...
+
+51
+00:00:02:05,332 --> 00:00:02:07,918
+we can't make any promises
+
+52
+00:00:02:07,918 --> 00:00:02:10,003
+now can we babe
+
+53
+00:00:02:10,003 --> 00:00:02:12,757
+but you can make me a drink
+
+54
+00:00:02:14,300 --> 00:00:02:16,802
+is it cool that i said all that?
+
+55
+00:00:02:16,802 --> 00:00:02:19,305
+is it chill that you're in my head?
+
+56
+00:00:02:19,305 --> 00:00:02:22,307
+'cause i know that it's delicate
+
+57
+00:00:02:24,394 --> 00:00:02:27,021
+is it cool that i said all that?
+
+58
+00:00:02:27,020 --> 00:00:02:29,481
+is it too soon to do this yet?
+
+59
+00:00:02:29,481 --> 00:00:02:32,485
+'cause i know that it's delicate
+
+60
+00:00:02:33,569 --> 00:00:02:35,989
+isn't it, isn't it, isn't it?
+
+61
+00:00:02:36,739 --> 00:00:02:38,658
+isn't it?
+
+62
+00:00:02:38,657 --> 00:00:02:41,743
+isn't it, isn't it, isn't it?
+
+63
+00:00:02:41,743 --> 00:00:02:43,121
+isn't it...
+
+64
+00:00:02:43,121 --> 00:00:02:44,706
+delicate
+
+65
+00:00:02:45,122 --> 00:00:02:47,625
+sometimes i wonder
+
+66
+00:00:02:47,625 --> 00:00:02:50,002
+when you sleep
+
+67
+00:00:02:50,336 --> 00:00:02:54,757
+are you ever dreaming of me?
+
+68
+00:00:02:55,258 --> 00:00:03:00,430
+sometimes when i look into your eyes
+
+69
+00:00:03:00,430 --> 00:00:03:02,932
+i pretend you're mine
+
+70
+00:00:03:02,931 --> 00:00:03:05,643
+all the damn time
+
+71
+00:00:03:06,728 --> 00:00:03:07,770
+'cause i like you
+
+72
+00:00:03:07,770 --> 00:00:03:09,939
+is it cool that i said all that?
+
+73
+00:00:03:09,938 --> 00:00:03:12,442
+is it chill that you're in my head?
+
+74
+00:00:03:12,442 --> 00:00:03:15,444
+'cause i know that it's delicate
+
+75
+00:00:03:16,028 --> 00:00:03:17,530
+(yeah i want you...)
+
+76
+00:00:03:17,530 --> 00:00:03:20,116
+is it cool that i said all that?
+
+77
+00:00:03:20,116 --> 00:00:03:22,577
+is it too soon to do this yet?
+
+78
+00:00:03:22,576 --> 00:00:03:24,787
+'cause i know that it's delicate
+
+79
+00:00:03:26,997 --> 00:00:03:28,040
+'cause i like you
+
+80
+00:00:03:28,040 --> 00:00:03:29,834
+is it cool that i said all that?
+
+81
+00:00:03:29,834 --> 00:00:03:31,002
+isn't it...
+
+82
+00:00:03:31,002 --> 00:00:03:31,794
+is it chill that you're in my head?
+
+83
+00:00:03:31,794 --> 00:00:03:32,921
+isn't it, isn't it,
+
+84
+00:00:03:32,920 --> 00:00:03:34,881
+'cause i know that it's delicate
+
+85
+00:00:03:34,881 --> 00:00:03:35,673
+isn't it...
+
+86
+00:00:03:36,799 --> 00:00:03:37,842
+(yeah i want you...)
+
+87
+00:00:03:37,842 --> 00:00:03:39,969
+is it cool that i said all that?
+
+88
+00:00:03:39,968 --> 00:00:03:41,012
+isn't it...
+
+89
+00:00:03:41,012 --> 00:00:03:41,971
+is it too soon to do this yet?
+
+90
+00:00:03:41,971 --> 00:00:03:43,097
+isn't it, isn't it,
+
+91
+00:00:03:43,097 --> 00:00:03:45,058
+'cause i know that it's delicate
+
+92
+00:00:03:45,057 --> 00:00:03:46,224
+isn't it...

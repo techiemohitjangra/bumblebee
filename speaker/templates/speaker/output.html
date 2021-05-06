@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Output</title>
+</head>
+<body>
+    <h1>{{test}}</h1>
+    <h1>{{words}}</h1>
+
+    {% for i in s %}
+        <h3>{{i}}</h3>
+    {% endfor %}
+
+    <audio src="{% if output %}{{output}}{% endif %}" type="audio/mp3">
+    </audio>
+</body>
+</html>
