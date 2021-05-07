@@ -1,15 +1,18 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, FileResponse
+import os
 from os.path import join, abspath
 from .models import Songs, Phrases, Contact
 from django.db.models import Max
 from .scripts.speaker import add_songs_to_database, add_phrases_to_database
 from pydub import AudioSegment
+from django.conf import settings
 
 
 ASSETS = abspath("speaker/assets/speaker")
 MAX_PHRASE_LENGTH = int(Phrases.objects.all().aggregate(Max('words'))['words__max'])
-TEMP = abspath(join("assets/speaker/temp"))
+TEMP = abspath(join("speaker/assets/speaker", "temp"))
+
 
 # Create your views here.
 def index(request):
@@ -25,16 +28,18 @@ def index(request):
     return render(request, "speaker/index.html")
 
 
-def join_mp3(output_destination, *args):
+def join_mp3(*args):
     output = None
     for song, chunk in args[0]:
         if output is None:
-            output = AudioSegment.from_mp3(abspath(join(ASSETS,f"song_chunks/{song}/{chunk}")))
+            output = AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
         else:
-            output += AudioSegment.from_mp3(abspath(join(ASSETS,f"song_chunks/{song}/{chunk}")))
+            output += AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
 
-    output_file = output.export(abspath(join(output_destination, "output.mp3")))
-    return output_file
+    if os.path.exists(join(ASSETS, "temp/output.mp3")):
+        os.remove(join(ASSETS, "temp/output.mp3"))
+    output_file = output.export(join(TEMP, "output.mp3"))
+    return output_file.name
 
 
 def text_input(request):
@@ -58,17 +63,20 @@ def text_input(request):
                     words = words[len(query[0].phrase.strip().split()):]
                     break
         
-        for phrase in phrases:
-            file_name = Songs.objects.filter(title=phrase.song)[0].file_name
-            mp3s.append((file_name, phrase.audio))
+        for p in phrases:
+            q = Songs.objects.filter(title=p.song)
+            if len(q) > 0:
+                file_name = q[0].file_name
+
+            mp3s.append((file_name, p.audio))
         
-        audio_file_url = join_mp3(abspath(join(ASSETS,"temp")), mp3s)
-            
+        output = join_mp3(mp3s)
 
     return render(request, "speaker/output.html", context={
-        "s": mp3s,
-        "output": audio_file_url
+        "output": join(settings.MEDIA_URL, "temp/output.mp3"),
+        "phrases": phrases
     })
+
 
 
 def contact_email(request):

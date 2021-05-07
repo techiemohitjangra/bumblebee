@@ -2,7 +2,7 @@ $.addEventListener("DOMContentLoaded", () => {
     // $.querySelectorAll('#user-input').split().length;
     maxLength = 100;
     $('#user-input').on('keyup',function(){
-        var count = $('#user-input').val().trim().split(' ');
+        var count = $('#user-input').text.trim().split(' ');
         $('#word-count').text(maxLength - parseInt(count.text));
         if (count < maxLength){
             $("#user-input").addClass("valid");
@@ -11,5 +11,5 @@ $.addEventListener("DOMContentLoaded", () => {
             $("#user-input").addClass("invalid");
         }
         
-    }); 
+    });
 });

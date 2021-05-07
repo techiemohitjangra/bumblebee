@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Output</title>
-</head>
-<body>
-    <h1>{{test}}</h1>
-    <h1>{{words}}</h1>
+{% extends 'speaker/index.html' %}
 
-    {% for i in s %}
-        <h3>{{i}}</h3>
-    {% endfor %}
+{% block output %}
+    <section id="output" class="container-fluid">
+        <h1 class="heading">Output</h1>
+        {% for i in phrases %}
+        <h3>{{i.phrase}}</h3>
+        {% endfor %}
+        <audio controls>
+            <source src="{{output}}" type="audio/mpeg">
+        </audio>
 
-    <audio src="{% if output %}{{output}}{% endif %}" type="audio/mp3">
-    </audio>
-</body>
-</html>
+    </section>
+<hr>
+{% endblock %}
