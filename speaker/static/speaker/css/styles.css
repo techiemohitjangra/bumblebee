@@ -18,6 +18,17 @@ a {
 	color: black;
 }
 
+/* Saperators */
+hr{
+	margin: auto;
+}
+
+
+hr.sub-section-separator {
+	width: 25%;
+}
+
+
 /* Headings */
 
 .heading{
@@ -32,12 +43,6 @@ a {
 	line-height: 1.5;
 }
 
-/* Saperators */
-
-hr.sub-section-saperator {
-	width: 25%;
-	margin: 1rem auto;
-}
 
 /* Containers */
 
@@ -45,7 +50,13 @@ hr.sub-section-saperator {
 	padding: 3% 7%;
 }
 
-
+.field-div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.field {
+	height: 3rem;
+}
 
 /* Sections */
 
@@ -57,9 +68,6 @@ hr.sub-section-saperator {
 	background-color: white;
 }
 
-hr{
-	margin: 0;
-}
 
 /* Navigations and title */
 .row {
@@ -68,6 +76,7 @@ hr{
 .navbar-brand {
 	font-size: 2.5rem;
 	font-weight: bold;
+	text-align: center;
 }
 
 .brand-name {
@@ -101,28 +110,12 @@ hr{
 
 
 /* Contact section*/
-
-
 #messege-box{
 	height: 6rem;
 	width: 50%;
 }
 
-.contact-input {
-	height: 3rem;
-}
-
-.contact-field{
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-
 /* User Input */
-.user-input{
-	height: 6rem;
-}
-
 .valid {
 	border-color: green;
 }
