@@ -3,13 +3,21 @@
 {% block output %}
     <section id="output" class="container-fluid">
         <h1 class="heading">Output</h1>
-        {% for i in phrases %}
-        <h3>{{i.phrase}}</h3>
+        <hr class="sub-section-separator">
+        {% if found_all %}
+            {% for i, j in phrases %}
+                {% if j %}
+                    <h3 class="found">{{i.phrase}}</h3>
+                {% else %}
+                    <h3 class="not-found">{{i.phrase}}</h3>
+                {% endif %}
+            {% endfor %}
+            <audio controls>
+                <source src="{{output}}" type="audio/mpeg">
+            </audio>
+        {% endif %}
+        {% for word in not_found %}
+            <h3 class="not-found">{{word}}</h3>
         {% endfor %}
-        <audio controls>
-            <source src="{{output}}" type="audio/mpeg">
-        </audio>
-
     </section>
-<hr>
 {% endblock %}

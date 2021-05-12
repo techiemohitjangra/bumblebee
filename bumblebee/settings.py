@@ -82,10 +82,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bumblebee',
-        'USER': 'mohit',
+        'USER': 'postgres',
         'PASSWORD': 'Hidden@mj123',
         'HOST': 'localhost'
-    }
+    },
+    'backup': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
 }
 
 

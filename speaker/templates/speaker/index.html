@@ -157,11 +157,11 @@
                 <div class="col-lg-12">
                     <textarea name="user-input" id="user-input" class="form-control" placeholder="Enter text here" cols="30" rows="10"></textarea>
                 </div>
-                <div class="col-lg-6 field-div">
-                    <p id="word-count"></p>
+                <div class="col-lg-6 col-md-6 field-div container counter">
+                    <h5 id="word-count col-lg-6 col-md-12">Words Left:</h5>
                 </div>
-                <div class="col-lg-6 field-div">
-                    <input class="btn col-lg-12 btn-dark field" type="submit"/>
+                <div class="col-lg-6 col-md-6 field-div container query">
+                    <input class="btn col-lg-6 col-md-12 btn-dark field" type="submit"/>
                 </div>
             </div>
 
@@ -172,6 +172,7 @@
     <hr>
     {% block output %}
     {% endblock %}
+    <hr>
 
     <!-- contact section -->
     <section id="contact" class="container-fluid">
@@ -201,10 +202,10 @@
     <hr>
 
     <!-- footer -->
-    <footer id="footer" method="post" style="background-color: #f4f9f9">
+    <footer class="footer nav-bar" id="footer" method="post" style="background-color: #f4f9f9">
             <nav class="row navbar" id="navbar-footer">
                     <div class="col">
-                        <a class="navbar-link" href="#home">Home</a>
+                        <a class="navbar-link" href="#title">Home</a>
                     </div>
                     <div class="col">
                         <a class="navbar-link" href="#about">About</a>
@@ -219,7 +220,7 @@
 
             <hr class="sub-section-separator">
 
-            <p>© Copyright 2021 BumbleBee</p>
+            <p class="copyright">© Copyright 2021 BumbleBee</p>
     </footer>
 </body>
 

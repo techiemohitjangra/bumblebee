@@ -31,10 +31,16 @@ def index(request):
 def join_mp3(*args):
     output = None
     for song, chunk in args[0]:
-        if output is None:
-            output = AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
+        if song is None and chunk is None:
+            if output is None:
+                output = AudioSegment.silent(1000)
+            else:
+                output += AudioSegment.silent(1000)
         else:
-            output += AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
+            if output is None:
+                output = AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
+            else:
+                output += AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
 
     if os.path.exists(join(ASSETS, "temp/output.mp3")):
         os.remove(join(ASSETS, "temp/output.mp3"))
@@ -48,6 +54,8 @@ def text_input(request):
         phrases = []
         words = user_input.split()
         mp3s = []
+        not_found = []
+        found_all = bool()
 
         while len(words) > 0:
             if len(words) >= MAX_PHRASE_LENGTH:
@@ -56,25 +64,43 @@ def text_input(request):
                 max_substring_length = len(words)
 
             for i in range(int(max_substring_length)):
-                sub_string = " ".join(words[:max_substring_length - i]).strip()
-                query = Phrases.objects.filter(phrase=sub_string)
-                if query is not None and len(query) != 0:
-                    phrases.append(query[0])
-                    words = words[len(query[0].phrase.strip().split()):]
-                    break
-        
-        for p in phrases:
-            q = Songs.objects.filter(title=p.song)
-            if len(q) > 0:
-                file_name = q[0].file_name
+                w = max_substring_length - i
+                sub_string = " ".join(words[:w]).strip()
+                if len(sub_string.split()) != 1:
+                    query = Phrases.objrects.filter(phrase=sub_string)
+                    if query is not None and len(query) != 0 :
+                        phrases.append((query[0], True))
+                        words = words[len(query[0].phrase.strip().split()):]
+                        break
+                    if query is None or len(query) == 0 and w == 1:
+                        word = sub_string.strip().split()[0]
+                        not_found.append(word)
+                        phrases.append((Phrases(phrase=word.strip()), False))
+                        words = words[1:]
+                        break
 
-            mp3s.append((file_name, p.audio))
+        for p, found in phrases:
+            if found:
+                q = Songs.objects.filter(title=p.song)
+                if len(q) > 0:
+                    file_name = q[0].file_name
+
+                mp3s.append((file_name, p.audio))
+            else:
+                mp3s.appen((None, None))
         
         output = join_mp3(mp3s)
 
+        if len(not_found) != 0:
+            found_all = False
+        else:
+            found_all = True
+
     return render(request, "speaker/output.html", context={
         "output": join(settings.MEDIA_URL, "temp/output.mp3"),
-        "phrases": phrases
+        "phrases": phrases,
+        "found_all" : found_all,
+        "not_found": not_found,
     })
 
 

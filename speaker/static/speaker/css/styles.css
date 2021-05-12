@@ -28,6 +28,10 @@ hr.sub-section-separator {
 	width: 25%;
 }
 
+audio{
+    margin: 1rem;
+}
+
 
 /* Headings */
 
@@ -77,6 +81,8 @@ hr.sub-section-separator {
 	font-size: 2.5rem;
 	font-weight: bold;
 	text-align: center;
+	padding: 0;
+	vertical-align: middle;
 }
 
 .brand-name {
@@ -85,15 +91,11 @@ hr.sub-section-separator {
 	color: black;
 }
 
-.navbar-item {
+.nav-item {
 	align-items: left;
-	padding: 0 18px;
+	margin: 0 1rem;
 }
 
-.brand-link{
-	padding:0;
-	vertical-align: middle;
-}
 
 
 /* welcome section */
@@ -116,6 +118,17 @@ hr.sub-section-separator {
 }
 
 /* User Input */
+.counter{
+    display: inline;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.query{
+    text-align: right;
+    padding-right: 10px;
+}
+
 .valid {
 	border-color: green;
 }
@@ -124,8 +137,23 @@ hr.sub-section-separator {
 	border-color: red;
 }
 
-/* footer */
 
+/* output section */
+.found{
+    color: green;
+}
+.not-found{
+    color: red;
+}
+
+/* footer */
+.footer{
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1.5rem auto;
+}
 #navbar-footer{
 	width: 50%;
 	margin: auto;
