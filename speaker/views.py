@@ -67,7 +67,7 @@ def text_input(request):
                 w = max_substring_length - i
                 sub_string = " ".join(words[:w]).strip()
                 if len(sub_string.split()) != 1:
-                    query = Phrases.objrects.filter(phrase=sub_string)
+                    query = Phrases.objects.filter(phrase=sub_string)
                     if query is not None and len(query) != 0 :
                         phrases.append((query[0], True))
                         words = words[len(query[0].phrase.strip().split()):]
