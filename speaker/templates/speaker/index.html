@@ -20,10 +20,11 @@
     <!-- bootstrap reference -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">    <link rel="stylesheet" href="{% static 'speaker/css/styles.css' %}">
     <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- bootstrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <link src="{% static 'speaker/js/script.js' %}" type="application/javascript">
+    <script src="{% static 'speaker/js/script.js' %}" type="application/javascript"></script>
+
 </head>
 
 <body>
@@ -157,11 +158,18 @@
                 <div class="col-lg-12">
                     <textarea name="user-input" id="user-input" class="form-control" placeholder="Enter text here" cols="30" rows="10"></textarea>
                 </div>
-                <div class="col-lg-6 col-md-6 field-div container counter">
-                    <h5 id="word-count col-lg-6 col-md-12">Words Left:</h5>
+                <div class="col-lg-12 col-md-12 field-div container counter">
+                    <h5 id="word-count col-lg-6 col-md-12">Words Left: <span id="count">100</span></h5>
                 </div>
-                <div class="col-lg-6 col-md-6 field-div container query">
-                    <input class="btn col-lg-6 col-md-12 btn-dark field" type="submit"/>
+                <div  class="col-lg-12 container radio">
+                    <input type="radio" id="add-silence" name="action-not-found" value="silence" checked>
+                    <label for="add-silence">Add 1000ms of silence for phrases that are not found.</label><br>
+                    <input type="radio" id="add-skip" name="action-not-found" value="skip">
+                    <label for="add-skip">Skip the phrases that are not found</label>
+                </div>
+
+                <div class="col-lg-12 col-md-12 field-div container query">
+                    <input class="btn col-lg-3 col-md-6 btn-dark field" type="submit"/>
                 </div>
             </div>
 
@@ -195,6 +203,7 @@
             <div class="col-lg-4 col-md-6 field-div">
                 <input type="submit" class="btn btn-dark col-lg-12 col-md-12 col-sm-12 field">
             </div>
+
 
         </form>
     </section>

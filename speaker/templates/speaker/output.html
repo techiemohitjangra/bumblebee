@@ -4,8 +4,8 @@
     <section id="output" class="container-fluid">
         <h1 class="heading">Output</h1>
         <hr class="sub-section-separator">
-        {% if found_all %}
-            {% for i, j in phrases %}
+        {% if output is not None %}
+            {% for i, j, k in phrases %}
                 {% if j %}
                     <h3 class="found">{{i.phrase}}</h3>
                 {% else %}
@@ -16,8 +16,14 @@
                 <source src="{{output}}" type="audio/mpeg">
             </audio>
         {% endif %}
-        {% for word in not_found %}
-            <h3 class="not-found">{{word}}</h3>
-        {% endfor %}
+        {% if output is None %}
+            <br>
+            <h3>No Matches Found</h3>
+            <a href="/"><button class="btn btn-lg btn-outline-dark get-started-btn">
+                Try Different Input
+                </button></a>
+
+        {% endif %}
+
     </section>
 {% endblock %}

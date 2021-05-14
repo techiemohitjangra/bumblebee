@@ -118,6 +118,9 @@ audio{
 }
 
 /* User Input */
+.radio{
+    text-align:left;
+}
 .counter{
     display: inline;
     text-align: left;
@@ -145,6 +148,7 @@ audio{
 .not-found{
     color: red;
 }
+
 
 /* footer */
 .footer{
