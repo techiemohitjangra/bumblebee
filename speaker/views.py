@@ -7,7 +7,7 @@ from django.db.models import Max
 from .scripts.speaker import add_songs_to_database, add_phrases_to_database
 from pydub import AudioSegment
 from django.conf import settings
-
+import subprocess
 
 ASSETS = abspath("speaker/assets/speaker")
 MAX_PHRASE_LENGTH = int(Phrases.objects.all().aggregate(Max('words'))['words__max'])
@@ -24,6 +24,10 @@ def index(request):
 
     if len(query_set_phrases) == 0 or query_set_phrases is None:
         add_phrases_to_database.add_all_phrase_to_database()
+
+
+    if os.path.exists(join(TEMP, "output.mp3")):
+        os.remove(join(TEMP, "output.mp3"))
 
     return render(request, "speaker/index.html")
 
@@ -46,11 +50,14 @@ def join_mp3(*args):
             else:
                 output += AudioSegment.from_mp3(abspath(join(ASSETS, f"song_chunks/{song}/{chunk}")))
 
-    if os.path.exists(join(ASSETS, "temp/output.mp3")):
-        os.remove(join(ASSETS, "temp/output.mp3"))
+    if os.path.exists(join(TEMP, "output.mp3")):
+        subprocess.Popen(f"rm -rf {abspath(join(TEMP,'output.mp3'))}")
+
+    if os.path.exists(join(TEMP, "output.mp3")):
+        os.remove(join(TEMP, "output.mp3"))
 
     if output:
-        output_file = output.export(join(TEMP, "output.mp3"))
+        output_file = output.export(join(TEMP, f"output.mp3"))
         return output_file.name
     else:
         return None
@@ -99,10 +106,13 @@ def text_input(request):
                 mp3s.append((file_name, p.audio, action))
             else:
                 mp3s.append((None, None, action))
-        
+
+        if os.path.exists(join(TEMP, "output.mp3")):
+            os.remove(join(TEMP, "output.mp3"))
+
         output = join_mp3(mp3s)
 
-        if output is None:
+        if output is None or len(not_found) == len(phrases):
             result = None
         else:
             result = join(settings.MEDIA_URL, "temp/output.mp3")
@@ -112,8 +122,9 @@ def text_input(request):
             found_all = False
         else:
             found_all = True
+
+
     return render(request, "speaker/output.html", context={
-        "action":action,
         "output": result,
         "phrases": phrases,
         "found_all" : found_all,

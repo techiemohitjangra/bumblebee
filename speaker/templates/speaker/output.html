@@ -4,7 +4,7 @@
     <section id="output" class="container-fluid">
         <h1 class="heading">Output</h1>
         <hr class="sub-section-separator">
-        {% if output %}
+        {% if output is not None %}
             {% for i, j, k in phrases %}
                 {% if j %}
                     <h3 class="found">{{i.phrase}}</h3>
@@ -19,7 +19,7 @@
         {% if output is None %}
             <br>
             <h3>No Matches Found</h3>
-            <a href=""><button class="btn btn-lg btn-outline-dark get-started-btn">
+            <a href="/"><button class="btn btn-lg btn-outline-dark get-started-btn">
                 Try Different Input
                 </button></a>
 
