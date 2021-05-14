@@ -12,9 +12,18 @@
                     <h3 class="not-found">{{i.phrase}}</h3>
                 {% endif %}
             {% endfor %}
-            <audio controls>
-                <source src="{{output}}" type="audio/mpeg">
-            </audio>
+            <div>
+                <audio controls>
+                    <source src="{{output}}" type="audio/mpeg">
+                </audio>
+            </div>
+            <div>
+                <a href="/">
+                    <button class="btn btn-lg btn-outline-dark get-started-btn">
+                    Try Another Input
+                    </button>
+                </a>
+            </div>
         {% endif %}
         {% if output is None %}
             <br>

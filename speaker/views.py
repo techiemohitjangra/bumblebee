@@ -57,7 +57,7 @@ def join_mp3(*args):
         os.remove(join(TEMP, "output.mp3"))
 
     if output:
-        output_file = output.export(join(TEMP, f"output.mp3"))
+        output_file = output.export(join(TEMP, "output.mp3"))
         return output_file.name
     else:
         return None
